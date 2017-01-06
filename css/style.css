@@ -1,0 +1,325 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin:0;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+#hreader-section{
+    background: #306F8E url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.contener{
+    width:1000px;
+    margin: 0 auto;
+}
+.column{
+    width: 50%;
+    float: left;
+}
+.column{
+    width: 50%;
+    float: left;
+}
+nav{
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-right: 1px solid #fff;
+}
+nav ul li a:hover{
+    color: #2596ff;
+}
+nav ul li:last-child a{
+    border-right: 0px solid #fff;
+}
+.analytics{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.analytics h1{
+    font-size: 3em;
+    margin: 0;
+}
+.analytics p{
+    font-size: 20px;
+    max-width: 655px;
+}
+.btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+    background: #2596FF;
+    padding: 14px 15px;
+    display: inline-block;
+    border: 1px solid #2596FF;
+    border-radius: 5px;
+}
+#informed-section{
+    margin-top: 10px;
+    height: 127vh;
+    transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+}
+.information{
+    margin-top: 90px;
+}
+.information span{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(150, 146, 146, 0.67);
+}
+.information h1{
+    margin: 0;
+    padding-top: 13px;
+}
+.information h3{
+    margin: 0;
+    padding-top: 13px;
+}
+.information p{
+    color: rgba(0, 0, 0, 0.53);
+    font-size: 23px;
+    font-weight: bold;
+}
+#development{
+    background: #262F36;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+}
+.development-class{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 35%;
+}
+.development-class span{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(150, 146, 146, 0.67);
+}
+.development-class h1{
+    color: #fff;
+}
+.development-class p{
+    margin-bottom: 2em;
+    color: rgba(150, 146, 146, 0.67);
+}
+.development-class .btn{
+    text-transform: none;
+    text-decoration: none;
+    color: #9E9E9E;
+    background: #e5e8ea;
+    padding: 12px 42px;
+    display: inline-block;
+    border: 1px solid #2a4054;
+    border-radius: 10px;
+}
+code{
+    position: absolute;
+    right: 0;
+    width: 40%;
+    color: #fff;
+    padding: 30px;
+    top:50%;
+    border: 1px solid rgba(119, 106, 106, 0.22);
+    border-right: 0;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+code ol{
+
+}
+code ol li{
+    color: #888;
+}
+code ol li span{
+    color: #3c7b90;
+}
+.logo{
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 3px;
+}
+#body-image-section{
+    background: #306F8E url(../images/office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.high-price{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.high-price span{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(150, 146, 146, 0.67);
+}
+.high-price p{
+    font-size: 38px;
+    font-weight: bold;
+}
+#navigation{
+    height: 20vh;
+    display: block;
+}
+#suport-section{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.column1{
+    width: 33.33%;
+    float:left;
+    display: block; 
+}
+.position{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+#business-talk-section{
+    background: rgba(128, 128, 128, 0.45);
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.need{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.plan{
+    text-align: center;
+}
+.plan span{
+    color: rgba(169, 148, 148, 0.72);
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.plan p{
+    font-size: 23px;
+    font-weight: bolder;
+    padding-bottom: 60px;
+}
+.column1{
+
+}
+.column1 ul{
+    list-style: none;
+}
+.column1 ul li{
+
+}
+.column1 ul li span{
+    padding-left: 95px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.41);
+    font-size: 12px;
+    font-weight: bolder;  
+}
+.column1 ul li p{
+    margin: 33px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+    font-weight: bolder;
+    text-align: center;
+}
+#footer-section{
+    background: #262F36;
+    overflow: hidden;
+}
+.footer-all{
+    padding-top: 93px;
+    padding-bottom: 200px;
+}
+.ahasan span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.74);
+}
+.ahasan p{
+    color: rgba(255, 255, 255, 0.44);
+    font-size: 17px;
+    margin-bottom: 0;
+}
+.ahasan h6{
+    margin-top: 4px;
+    color: rgba(255, 255, 255, 0.64);   
+}
+.footer-column{
+    width: 30%;
+    float: left;
+}
+.footer-column ul{
+    margin: 0;
+    list-style: none;
+    margin-left: 90px;
+}
+.footer-column ul li{
+
+}
+.footer-column ul li a{
+    text-decoration: none;
+    color: rgba(150, 150, 150, 0.84);
+    font-size: 13px;
+    font-weight: 800;
+}
+.footer-column ul li span{
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.footer-column ul li a:hover{
+    color: skyblue;
+}
